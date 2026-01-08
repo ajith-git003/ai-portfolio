@@ -1,0 +1,47 @@
+.cursor {
+    width: 12px;
+    height: 12px;
+    background: var(--accent-primary);
+    border-radius: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 9999;
+    box-shadow: 0 0 10px var(--accent-glow);
+    transition: width 0.2s, height 0.2s, background-color 0.2s;
+}
+
+.cursorTrail {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--accent-primary);
+    border-radius: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 9998;
+    transition: width 0.2s, height 0.2s, border-color 0.2s;
+    opacity: 0.6;
+}
+
+.pointer {
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    mix-blend-mode: difference;
+}
+
+.pointerTrail {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: transparent;
+}
+
+@media (max-width: 968px) {
+
+    .cursor,
+    .cursorTrail {
+        display: none;
+    }
+}
