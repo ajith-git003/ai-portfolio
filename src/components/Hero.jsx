@@ -40,11 +40,15 @@ const Hero = () => {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
-                    <div className={styles.videoPlaceholder}>
-                        <div className={styles.playButton}>
-                            <Play size={32} fill="currentColor" />
-                        </div>
-                        <p>Video Introduction</p>
+                    <div className={styles.videoWrapper}>
+                        <iframe
+                            src="https://www.youtube.com/embed/Xmiuv0tgqP8?si=your_params&rel=0"
+                            title="AI Portfolio Video"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen
+                            className={styles.videoFrame}
+                        ></iframe>
                     </div>
                 </motion.div>
             </div>
