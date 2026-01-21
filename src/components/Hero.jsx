@@ -27,7 +27,7 @@ const Hero = () => {
                             <a href="#contact" className={styles.ctaSecondary}>
                                 Contact Me
                             </a>
-                            <a href="#" className={styles.ctaSecondary}>
+                            <a href="/Ajith%20Kumar%20-%20AI%20Engineer.pdf" download="Ajith_Kumar_Resume.pdf" className={styles.ctaSecondary}>
                                 <Download size={20} /> Resume
                             </a>
                         </div>
