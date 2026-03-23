@@ -65,7 +65,7 @@ export const experience = [
 export const projects = [
     {
         title: "PromptCraft AI",
-        link: "https://prompt-craft-azure.vercel.app/",
+        link: "https://prompt-craft-z.vercel.app/",
         description: "An AI-powered prompt optimization tool that transforms vague user inputs into structured, high-quality prompts. Implements task decomposition and constraint-based prompting.",
         tech: ["FastAPI", "React", "Google Gemini"],
         image: promptcraftImg
