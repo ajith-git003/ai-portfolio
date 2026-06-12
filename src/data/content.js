@@ -5,8 +5,8 @@ import caloriesenseImg from '../assets/caloriesense.png';
 
 export const profile = {
     name: "Ajith Kumar",
-    role: "AI Engineer",
-    summary: "I am an AI Engineer with a strong foundation in performance marketing and 3 years of experience managing multiple clients and large-scale ad budgets. My growing interest in AI engineering led me to focus on building and deploying intelligent systems that solve real-world problems. I am highly curious by nature and committed to continuous learning.",
+    role: "Junior AI Engineer | AI Product Builder | Agentic AI | LLM Systems",
+    summary: "Junior AI Engineer and product-minded builder with hands-on experience designing end-to-end LLM, agentic AI, and automation systems across backend engineering, document intelligence, and growth-focused applications. Strong foundation in Python, FastAPI, RAG, vector search, LangChain, LangGraph, cloud AI services, and production AI workflows. Experienced in converting ambiguous business problems into scalable AI products, internal platforms, and decision-support systems.",
     location: "Bangalore",
     email: "ajithtitans7@gmail.com",
     linkedin: "https://www.linkedin.com/in/ajith-kumar07/",
@@ -14,51 +14,50 @@ export const profile = {
 };
 
 export const skills = [
-    { name: "Python", category: "Core", icon: Code },
-    { name: "TensorFlow", category: "AI", icon: Brain },
-    { name: "PyTorch", category: "AI", icon: Brain },
-    { name: "Keras", category: "AI", icon: Brain },
-    { name: "Scikit-learn", category: "AI", icon: Brain },
-    { name: "OpenCV", category: "AI", icon: Brain },
-    { name: "Transformers", category: "AI", icon: Brain },
-    { name: "RAG", category: "AI", icon: Brain },
-    { name: "Pandas", category: "Data", icon: Database },
-    { name: "NumPy", category: "Data", icon: Database },
-    { name: "Matplotlib", category: "Data", icon: BarChart },
-    { name: "Seaborn", category: "Data", icon: BarChart },
-    { name: "AWS", category: "Cloud", icon: Server },
-    { name: "Google Cloud", category: "Cloud", icon: Server },
-    { name: "API", category: "Backend", icon: Globe },
-    { name: "Docker", category: "DevOps", icon: Server },
-    { name: "Git", category: "Tools", icon: Code },
-    { name: "MLflow", category: "MLOps", icon: BarChart },
+    { name: "Python", category: "Backend", icon: Code },
+    { name: "SQL", category: "Backend", icon: Database },
     { name: "FastAPI", category: "Backend", icon: Globe },
+    { name: "REST APIs", category: "Backend", icon: Globe },
+    { name: "SQLAlchemy", category: "Backend", icon: Database },
+    { name: "RAG", category: "LLM & Agentic AI", icon: Brain },
+    { name: "Embeddings", category: "LLM & Agentic AI", icon: Brain },
+    { name: "Vector Search", category: "LLM & Agentic AI", icon: Brain },
+    { name: "LangChain", category: "LLM & Agentic AI", icon: Brain },
+    { name: "LangGraph", category: "LLM & Agentic AI", icon: Brain },
+    { name: "CrewAI", category: "LLM & Agentic AI", icon: Brain },
+    { name: "MCP", category: "LLM & Agentic AI", icon: Brain },
+    { name: "Google ADK", category: "LLM & Agentic AI", icon: Brain },
+    { name: "Prompt Engineering", category: "LLM & Agentic AI", icon: Brain },
+    { name: "Hugging Face", category: "LLM & Agentic AI", icon: Brain },
+    { name: "OpenAI GPT-4o", category: "LLM & Agentic AI", icon: Brain },
+    { name: "Azure OpenAI", category: "Cloud & Infrastructure", icon: Server },
+    { name: "Azure AI Services", category: "Cloud & Infrastructure", icon: Server },
+    { name: "AWS", category: "Cloud & Infrastructure", icon: Server },
+    { name: "Docker", category: "Cloud & Infrastructure", icon: Server },
+    { name: "MLflow", category: "Cloud & Infrastructure", icon: BarChart },
+    { name: "LangSmith", category: "Cloud & Infrastructure", icon: BarChart },
+    { name: "TensorFlow", category: "AI / ML", icon: Brain },
+    { name: "CNNs", category: "AI / ML", icon: Brain },
+    { name: "Scikit-learn", category: "AI / ML", icon: Brain },
+    { name: "Vision AI", category: "AI / ML", icon: Brain },
+    { name: "React", category: "Frontend", icon: Code },
+    { name: "WebRTC", category: "Frontend", icon: Globe },
+    { name: "Google Sheets API", category: "Frontend", icon: Globe },
+    { name: "Facebook Marketing API", category: "Frontend", icon: Globe },
 ];
 
 export const experience = [
     {
-        role: "Senior Associate",
-        company: "Intent Farm",
-        period: "Oct 2025 – Present",
-        description: "Led performance optimization across multiple client funnels, doubling lead quality and improving ROAS from 2× to 3.5× through landing page and checkout flow redesigns. Mentored interns and collaborated cross-functionally to execute scalable, data-driven growth strategies."
+        role: "Junior AI Engineer",
+        company: "Day0 Ai Enterprises",
+        period: "Aug 2024 – Present",
+        description: "Supported the design and delivery of AI-powered SaaS features using Python, FastAPI, LLM APIs, and agentic workflows. Built and maintained backend services for AI product capabilities including API orchestration, prompt workflows, model integration, and deployment support. Implemented RAG-based pipelines for structured and unstructured data, improving grounded responses and knowledge access. Contributed to agent-based systems using LangChain, LangGraph, and implemented observability, tracing, and evaluation practices to improve reliability and release confidence."
     },
     {
-        role: "Performance Marketer",
-        company: "Growth Partners",
-        period: "Aug 2024 – Sep 2025",
-        description: "Built automated reporting pipelines to sync live ad performance into Google Sheets, eliminating manual reporting and enabling faster decision-making. Managed Google & Meta Ads with consistent ROAS growth while optimizing targeting and reducing CAC through data analysis and CRM automation."
-    },
-    {
-        role: "Performance Marketer",
-        company: "Brandmonk Consulting",
-        period: "Mar 2024 – Jul 2024",
-        description: "Improved lead quality and reduced CPL by 25% using data-driven PPC strategies and landing page optimization. Scaled Meta ad campaigns with pixel tracking, increasing course enrollments by 50%."
-    },
-    {
-        role: "Digital Marketing Executive",
-        company: "Helios Spectra",
-        period: "Jun 2022 – Feb 2024",
-        description: "Optimized Google Ads for UK markets, increasing CTR by 40% through keyword and ad-structure improvements. Executed SEO strategies for UK and Dubai clients, leveraging analytics to drive traffic growth and conversion insights."
+        role: "Associate AI Engineer",
+        company: "SS Consulting Agency",
+        period: "Jun 2022 – Jul 2024",
+        description: "Contributed to AI and automation use cases at the intersection of growth systems, digital operations, and intelligent workflow optimization. Worked on data-driven campaign and audience analysis using analytics tools to monitor performance, conversion behavior, and optimization opportunities. Supported AI-enabled experimentation and performance improvement initiatives by analyzing audience behavior, click patterns, and conversion trends."
     }
 ];
 
