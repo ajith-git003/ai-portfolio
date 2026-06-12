@@ -5,7 +5,7 @@ import caloriesenseImg from '../assets/caloriesense.png';
 
 export const profile = {
     name: "Ajith Kumar",
-    role: "Junior AI Engineer | AI Product Builder | Agentic AI | LLM Systems",
+    role: "AI Engineer",
     summary: "Junior AI Engineer and product-minded builder with hands-on experience designing end-to-end LLM, agentic AI, and automation systems across backend engineering, document intelligence, and growth-focused applications. Strong foundation in Python, FastAPI, RAG, vector search, LangChain, LangGraph, cloud AI services, and production AI workflows. Experienced in converting ambiguous business problems into scalable AI products, internal platforms, and decision-support systems.",
     location: "Bangalore",
     email: "ajithtitans7@gmail.com",
